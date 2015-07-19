@@ -14,10 +14,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var greenSlider: UISlider!
     @IBOutlet weak var blueSlider: UISlider!
     
+    @IBOutlet var colorSquare:
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         updateBackgroundColor()
+        
     }
     
     override func didReceiveMemoryWarning() {
